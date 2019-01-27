@@ -57,7 +57,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg");
+      background: url("../img/portrait_small.jpg");
       border-radius: 50%;
       border: 3px solid #fffb07; }
   .menu .nav-item {
@@ -223,8 +223,7 @@ main {
   grid-gap: 0.7rem; }
   .projects img {
     width: 100%;
-    border: 3px #fff solid;
-    min-height: 260px; }
+    border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.6;
       border-color: #fffb07;
