@@ -326,10 +326,21 @@ main {
     grid-template-areas: "bioimage" "bio" "job1" "job2";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr); }
+  .bio .abilities {
+    margin-right: 2rem;
+    list-style: none; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes div {
+    font-size: 1rem; }
+  .bio .abilities {
+    margin-right: 2rem;
+    margin-top: 2rem; }
+    .bio .abilities li {
+      font-size: 1.1rem;
+      margin-top: 0.3rem; } }
