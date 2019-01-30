@@ -19,6 +19,12 @@
       line-height: 1;
       margin-bottom: 1rem;
     }
+    .lg-heading{
+      font-size: 3.5rem;
+    }
+    .sm-heading{
+      font-size: 1.3rem;
+    }
   }
 
   ul.menu-nav,
@@ -68,10 +74,22 @@
       list-style: none;
     }
   }
+  .boxes div{
+    font-size: 1.2rem;
+  }
 }
 
 //Smartphones
 @include mediaSm {
+  main{
+    .lg-heading{
+      font-size: 3rem;
+    }
+    .sm-heading{
+      font-size: 1rem;
+    }
+  }
+
   main#home h1 {
     margin-top: 10vh;
   }
