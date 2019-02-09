@@ -159,7 +159,6 @@ main {
     border: 3px #fff solid;
 
     &:hover {
-      opacity: 0.6;
       border-color: $secondary-color;
       @include easeOut;
     }
