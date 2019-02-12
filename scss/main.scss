@@ -154,9 +154,21 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem;
 
+  p{
+    background-color: rgb(26, 26, 26);
+    margin: 0;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    
+    span{
+      color:$secondary-color;
+    }
+  }
+
   img {
     width: 100%;
     border: 3px #fff solid;
+    
 
     &:hover {
       border-color: $secondary-color;

@@ -66,6 +66,10 @@
 
   .projects {
     grid-template-columns: repeat(1, 1fr);
+
+    .btn-dark{
+      margin-bottom: 50px;
+    }
   }
 
   .bio {
@@ -96,6 +100,10 @@
 
   .projects {
     grid-template-columns: 1fr;
+
+    .btn-dark{
+      margin-bottom: 50px;
+    }
   }
 
   .boxes {
