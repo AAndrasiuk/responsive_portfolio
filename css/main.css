@@ -216,6 +216,13 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem; }
+  .projects p {
+    background-color: #1a1a1a;
+    margin: 0;
+    height: 100%;
+    padding: 0.5rem 1rem; }
+    .projects p span {
+      color: #fffb07; }
   .projects img {
     width: 100%;
     border: 3px #fff solid; }
@@ -330,6 +337,8 @@ main {
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(1, 1fr); }
+    .projects .btn-dark {
+      margin-bottom: 50px; }
   .bio .abilities {
     margin-right: 2rem;
     list-style: none; }
@@ -345,6 +354,8 @@ main {
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; }
+    .projects .btn-dark {
+      margin-bottom: 50px; }
   .boxes div {
     font-size: 1rem; }
   .bio .abilities {
